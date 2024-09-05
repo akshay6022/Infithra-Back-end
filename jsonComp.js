@@ -16,19 +16,32 @@ function jsonDiff(file1, file2) {
   const diffs = diff(objA, objB);
   return diffs;
 }
+
+function getFieldName(fieldArray) {
+  if (fieldArray.length > 0) {
+    const length = fieldArray.length - 1;
+    let fieldName;
+    for (let i = fieldArray.length - 1; i >= 0; i--) {
+      if (typeof fieldArray[i] === "number") {
+        return (fieldName = fieldArray[i - 1]);
+      }
+    }
+    fieldName = fieldArray[length];
+    return fieldName;
+  }
+}
+
 const result = jsonDiff("jsonA.json", "jsonB.json");
 console.log("result----", result);
-
 const len = result.length;
-console.log("len---", len);
-
-if (len >=1) {
+if (len >= 1) {
   let res = result.map((el) => {
     return {
-        field: el.path.toString(),  
-        oldValue: el.lhs,
-        newValue: el.rhs
-    }
+      fieldPath: el.path,
+      fieldName: getFieldName(el.path),
+      oldValue: el.lhs,
+      newValue: el.rhs,
+    };
   });
-  console.log("res---",res)
+  console.log("res---", res);
 }
