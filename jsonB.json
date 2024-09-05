@@ -1,0 +1,1516 @@
+{
+    "message": "LeavePlan retrieved",
+    "data": {
+        "id": "4f9aafee-67c5-1eb9-f119-4045c1d8da45",
+        "name": "Outsource plan",
+        "customField": null,
+        "isDraft": false,
+        "createdAt": "2024-06-04T09:57:49.864Z",
+        "subsidiary": [
+            {
+                "id": "49eecd7a-faf2-30ac-20dd-ad7eabbaf593",
+                "name": "KPI DXB"
+            }
+        ],
+        "location": [
+            {
+                "id": "fae124f8-4e17-310d-8142-f45f986481d4",
+                "name": "DXB"
+            },{
+                "id": "fae124f8-4e17-310d-8142-f45f986481d3",
+                "name": "Oman"
+            }
+        ],
+        "department": [
+            {
+                "id": "35cba618-f318-474c-b243-e12aa56c1529",
+                "name": "DBX Department test"
+            }
+        ],
+        "class": [
+            {
+                "id": "8532356e-928f-3874-dcd0-9d8df4355617",
+                "name": "Test Class"
+            }
+        ],
+        "jurisdiction": {
+            "id": "b5bab970-9bf1-759e-3b28-53b197426336",
+            "name": "UAE Mainland",
+            "subsidiary": [
+                {
+                    "id": "49eecd7a-faf2-30ac-20dd-ad7eabbaf593",
+                    "name": "KPI DXBB"
+                }
+            ]
+        },
+        "leaveTypes": [
+            {
+                "id": "522ff6b4-4a2e-2a0f-90e7-d1150c46da6c",
+                "leaveItemType": {
+                    "id": "1",
+                    "name": "Earning"
+                },
+                "leavePayType": {
+                    "id": "1",
+                    "name": "Full Pay"
+                },
+                "entitlementUnit": {
+                    "id": "1",
+                    "name": "Days"
+                },
+                "serialNo": 3,
+                "name": "Casual Leave",
+                "incrementValue": "1.00",
+                "decrementValue": "0.00",
+                "adjustInNetAmount": null,
+                "isDraft": false,
+                "customField": null,
+                "createdAt": "2024-06-04T09:57:49.864Z",
+                "component": {
+                    "id": "6fc0f89b-083f-3a58-ed73-7ad8d8438455",
+                    "name": "Annual Leave Encashment"
+                },
+                "encashmentComponent": [
+                    {
+                        "id": "7c758a19-f46c-719e-4a25-59d44ac76f6e",
+                        "name": "Basic Salary"
+                    },
+                    {
+                        "id": "0436024a-2b42-414f-be2d-d609b5cdfc14",
+                        "name": "Transport Allowance"
+                    },
+                    {
+                        "id": "78bb0c50-58cc-38af-e333-1aef0a9789ab",
+                        "name": "Other Allowances"
+                    },
+                    {
+                        "id": "92d87cf9-26ba-bca6-9a8f-f58505ef6189",
+                        "name": "House Rent Allowance"
+                    }
+                ],
+                "leaveRule": {
+                    "id": "67ab90ba-03c9-7aaf-0c5b-c8be68d5289f",
+                    "accrualType": {
+                        "id": "3",
+                        "name": "On joining start date"
+                    },
+                    "accrualFrequency": {
+                        "id": "1",
+                        "name": "Daily"
+                    },
+                    "quotaResetFrequency": null,
+                    "quotaResetType": null,
+                    "genderApplicability": [
+                        {
+                            "id": "1",
+                            "name": "Female"
+                        },
+                        {
+                            "id": "2",
+                            "name": "Male"
+                        },
+                        {
+                            "id": "3",
+                            "name": "Other"
+                        }
+                    ],
+                    "nationalityApplicability": [
+                        {
+                            "id": "5",
+                            "name": "Andorran"
+                        },
+                        {
+                            "id": "15",
+                            "name": "Bangladeshi"
+                        },
+                        {
+                            "id": "16",
+                            "name": "Barbadian"
+                        },
+                        {
+                            "id": "21",
+                            "name": "Bermudian"
+                        },
+                        {
+                            "id": "27",
+                            "name": "British Virgin Islander"
+                        },
+                        {
+                            "id": "32",
+                            "name": "Burundian"
+                        },
+                        {
+                            "id": "33",
+                            "name": "Cambodian"
+                        },
+                        {
+                            "id": "35",
+                            "name": "Canadian"
+                        },
+                        {
+                            "id": "36",
+                            "name": "Cape Verdean"
+                        },
+                        {
+                            "id": "37",
+                            "name": "Cayman Islander"
+                        },
+                        {
+                            "id": "39",
+                            "name": "Chadian"
+                        },
+                        {
+                            "id": "42",
+                            "name": "Citizen of Antigua and Barbuda"
+                        },
+                        {
+                            "id": "43",
+                            "name": "Citizen of Bosnia and Herzegovina"
+                        },
+                        {
+                            "id": "47",
+                            "name": "Citizen of the Dominican Republic"
+                        },
+                        {
+                            "id": "52",
+                            "name": "Congolese (DRC)"
+                        },
+                        {
+                            "id": "53",
+                            "name": "Cook Islander"
+                        },
+                        {
+                            "id": "61",
+                            "name": "Danish"
+                        },
+                        {
+                            "id": "62",
+                            "name": "Djiboutian"
+                        },
+                        {
+                            "id": "63",
+                            "name": "Dominican"
+                        },
+                        {
+                            "id": "64",
+                            "name": "Dutch"
+                        },
+                        {
+                            "id": "66",
+                            "name": "Ecuadorean"
+                        },
+                        {
+                            "id": "86",
+                            "name": "Greenlandic"
+                        },
+                        {
+                            "id": "87",
+                            "name": "Grenadian"
+                        },
+                        {
+                            "id": "93",
+                            "name": "Honduran"
+                        },
+                        {
+                            "id": "96",
+                            "name": "Icelandic"
+                        },
+                        {
+                            "id": "97",
+                            "name": "Indian"
+                        },
+                        {
+                            "id": "98",
+                            "name": "Indonesian"
+                        },
+                        {
+                            "id": "107",
+                            "name": "Jordanian"
+                        },
+                        {
+                            "id": "123",
+                            "name": "Macedonian"
+                        },
+                        {
+                            "id": "127",
+                            "name": "Maldivian"
+                        },
+                        {
+                            "id": "136",
+                            "name": "Moldovan"
+                        },
+                        {
+                            "id": "147",
+                            "name": "New Zealander"
+                        },
+                        {
+                            "id": "163",
+                            "name": "Pitcairn Islander"
+                        },
+                        {
+                            "id": "166",
+                            "name": "Prydeinig"
+                        },
+                        {
+                            "id": "171",
+                            "name": "Rwandan"
+                        },
+                        {
+                            "id": "172",
+                            "name": "Salvadorean"
+                        },
+                        {
+                            "id": "176",
+                            "name": "Saudi Arabian"
+                        },
+                        {
+                            "id": "184",
+                            "name": "Solomon Islander"
+                        },
+                        {
+                            "id": "188",
+                            "name": "South Sudanese"
+                        },
+                        {
+                            "id": "194",
+                            "name": "Sudanese"
+                        },
+                        {
+                            "id": "197",
+                            "name": "Swedish"
+                        },
+                        {
+                            "id": "206",
+                            "name": "Trinidadian"
+                        },
+                        {
+                            "id": "211",
+                            "name": "Turks and Caicos Islander"
+                        },
+                        {
+                            "id": "213",
+                            "name": "Ugandan"
+                        }
+                    ],
+                    "religionApplicability": [
+                        {
+                            "id": "1",
+                            "name": "African Traditional & Diasporic"
+                        },
+                        {
+                            "id": "2",
+                            "name": "Agnostic"
+                        },
+                        {
+                            "id": "3",
+                            "name": "Atheist"
+                        },
+                        {
+                            "id": "4",
+                            "name": "Buddhism"
+                        },
+                        {
+                            "id": "5",
+                            "name": "Chinese traditional religion"
+                        },
+                        {
+                            "id": "6",
+                            "name": "Christianity"
+                        },
+                        {
+                            "id": "7",
+                            "name": "Hinduism"
+                        },
+                        {
+                            "id": "8",
+                            "name": "Islam"
+                        },
+                        {
+                            "id": "9",
+                            "name": "Jainism"
+                        },
+                        {
+                            "id": "10",
+                            "name": "Juche"
+                        },
+                        {
+                            "id": "12",
+                            "name": "Other"
+                        },
+                        {
+                            "id": "11",
+                            "name": "Sikhism"
+                        }
+                    ],
+                    "restriction": null,
+                    "serialNo": 3,
+                    "allowNegativeLeaves": false,
+                    "accrualDay": null,
+                    "quotaResetDay": null,
+                    "entitlementPerPeriod": {
+                        "applicableAfterEmploymentDays": 10,
+                        "perPeriodSaved": true,
+                        "perPeriodForm": [
+                            {
+                                "minimumYear": 1,
+                                "maximumYear": 2,
+                                "entitlement": 20
+                            }
+                        ]
+                    },
+                    "accrualMaxLimit": null,
+                    "allowCarryOver": true,
+                    "allowNegativeCarryOver": true,
+                    "maxCarryOver": 0,
+                    "includeWeeklyHoliday": true,
+                    "includeNonWorkingDay": true,
+                    "allowHourly": false,
+                    "maxLeaveDaysAllowed": null,
+                    "allowCarryOverToBeUsedWithin": null,
+                    "defaultLeaveReasons": null,
+                    "negativeLeaveLimit": null,
+                    "documentMandatory": false,
+                    "thresholdDays": null,
+                    "resumptionThresholdDays": null,
+                    "applicableForResumption": false,
+                    "applicableForAdvanceVacationSalary": true,
+                    "applicableForAirTicketReimbursement": true,
+                    "message": null,
+                    "isDraft": false,
+                    "customField": null,
+                    "createdAt": "2024-06-04T09:57:49.864Z",
+                    "ceilingDays": null,
+                    "leaveReason": [
+                        {
+                            "id": "53be04cb-3e1e-2e37-1e15-1dc982f42ccb",
+                            "name": "Paid Leave"
+                        },
+                        {
+                            "id": "1e47724f-04b3-ec9f-2bf7-4ce32bc0a753",
+                            "name": "Casual leave"
+                        },
+                        {
+                            "id": "9d5df4f0-1788-c4f1-89c1-47e4a41d71c7",
+                            "name": "Unpaid Leave"
+                        },
+                        {
+                            "id": "e681dc42-bc91-3da6-3c7c-ecba042e0023",
+                            "name": "Sick Leave"
+                        }
+                    ],
+                    "applicability": [
+                        {
+                            "id": "cd34a285-a320-c0cf-4843-4ff381109dc8",
+                            "payCalculation": {
+                                "id": "1",
+                                "name": "As per payroll cycle"
+                            },
+                            "applicabilityType": "fullAndFinal",
+                            "isApplicable": true,
+                            "maxEncashmentDays": null,
+                            "afterEmployementDays": null,
+                            "createdAt": "2024-06-04T09:57:49.864Z",
+                            "component": {
+                                "id": "47904fc8-69f8-be42-4e98-2df844a1260e",
+                                "name": "Gratuity (Severance Pay)"
+                            },
+                            "encashComponent": []
+                        },
+                        {
+                            "id": "42a24487-479c-f35c-9d64-b1d2012b05a5",
+                            "payCalculation": null,
+                            "applicabilityType": "encashment",
+                            "isApplicable": false,
+                            "maxEncashmentDays": null,
+                            "afterEmployementDays": null,
+                            "createdAt": "2024-06-04T09:57:49.864Z",
+                            "component": null,
+                            "encashComponent": []
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "a2ddb99d-2aef-bcbf-ba0e-608966de774f",
+                "leaveItemType": {
+                    "id": "1",
+                    "name": "Earning"
+                },
+                "leavePayType": {
+                    "id": "1",
+                    "name": "Full Pay"
+                },
+                "entitlementUnit": {
+                    "id": "1",
+                    "name": "Days"
+                },
+                "serialNo": 4,
+                "name": "Sick Leave",
+                "incrementValue": "1.00",
+                "decrementValue": "0.00",
+                "adjustInNetAmount": null,
+                "isDraft": false,
+                "customField": null,
+                "createdAt": "2024-06-10T10:51:18.414Z",
+                "component": {
+                    "id": "28c37be0-0b85-3ccd-0229-aa062d9e2fb7",
+                    "name": "Other Leave Encashment"
+                },
+                "encashmentComponent": [
+                    {
+                        "id": "7c758a19-f46c-719e-4a25-59d44ac76f6e",
+                        "name": "Basic Salary"
+                    }
+                ],
+                "leaveRule": {
+                    "id": "4ab2babd-ee5d-b816-3fba-db0da6609d01",
+                    "accrualType": {
+                        "id": "1",
+                        "name": "Start of the month"
+                    },
+                    "accrualFrequency": {
+                        "id": "2",
+                        "name": "Monthly"
+                    },
+                    "quotaResetFrequency": null,
+                    "quotaResetType": null,
+                    "genderApplicability": [
+                        {
+                            "id": "1",
+                            "name": "Female"
+                        },
+                        {
+                            "id": "2",
+                            "name": "Male"
+                        },
+                        {
+                            "id": "3",
+                            "name": "Other"
+                        }
+                    ],
+                    "nationalityApplicability": [
+                        {
+                            "id": "1",
+                            "name": "Afghan"
+                        },
+                        {
+                            "id": "2",
+                            "name": "Albanian"
+                        },
+                        {
+                            "id": "3",
+                            "name": "Algerian"
+                        },
+                        {
+                            "id": "4",
+                            "name": "American"
+                        },
+                        {
+                            "id": "5",
+                            "name": "Andorran"
+                        },
+                        {
+                            "id": "6",
+                            "name": "Angolan"
+                        },
+                        {
+                            "id": "7",
+                            "name": "Anguillan"
+                        },
+                        {
+                            "id": "8",
+                            "name": "Argentine"
+                        },
+                        {
+                            "id": "9",
+                            "name": "Armenian"
+                        },
+                        {
+                            "id": "10",
+                            "name": "Australian"
+                        },
+                        {
+                            "id": "11",
+                            "name": "Austrian"
+                        },
+                        {
+                            "id": "12",
+                            "name": "Azerbaijani"
+                        },
+                        {
+                            "id": "13",
+                            "name": "Bahamian"
+                        },
+                        {
+                            "id": "14",
+                            "name": "Bahraini"
+                        },
+                        {
+                            "id": "15",
+                            "name": "Bangladeshi"
+                        },
+                        {
+                            "id": "16",
+                            "name": "Barbadian"
+                        },
+                        {
+                            "id": "17",
+                            "name": "Belarusian"
+                        },
+                        {
+                            "id": "18",
+                            "name": "Belgian"
+                        },
+                        {
+                            "id": "19",
+                            "name": "Belizean"
+                        },
+                        {
+                            "id": "20",
+                            "name": "Beninese"
+                        },
+                        {
+                            "id": "21",
+                            "name": "Bermudian"
+                        },
+                        {
+                            "id": "22",
+                            "name": "Bhutanese"
+                        },
+                        {
+                            "id": "23",
+                            "name": "Bolivian"
+                        },
+                        {
+                            "id": "24",
+                            "name": "Botswanan"
+                        },
+                        {
+                            "id": "25",
+                            "name": "Brazilian"
+                        },
+                        {
+                            "id": "26",
+                            "name": "British"
+                        },
+                        {
+                            "id": "27",
+                            "name": "British Virgin Islander"
+                        },
+                        {
+                            "id": "28",
+                            "name": "Bruneian"
+                        },
+                        {
+                            "id": "29",
+                            "name": "Bulgarian"
+                        },
+                        {
+                            "id": "30",
+                            "name": "Burkinan"
+                        },
+                        {
+                            "id": "31",
+                            "name": "Burmese"
+                        },
+                        {
+                            "id": "32",
+                            "name": "Burundian"
+                        },
+                        {
+                            "id": "33",
+                            "name": "Cambodian"
+                        },
+                        {
+                            "id": "34",
+                            "name": "Cameroonian"
+                        },
+                        {
+                            "id": "35",
+                            "name": "Canadian"
+                        },
+                        {
+                            "id": "36",
+                            "name": "Cape Verdean"
+                        },
+                        {
+                            "id": "37",
+                            "name": "Cayman Islander"
+                        },
+                        {
+                            "id": "38",
+                            "name": "Central African"
+                        },
+                        {
+                            "id": "39",
+                            "name": "Chadian"
+                        },
+                        {
+                            "id": "40",
+                            "name": "Chilean"
+                        },
+                        {
+                            "id": "41",
+                            "name": "Chinese"
+                        },
+                        {
+                            "id": "42",
+                            "name": "Citizen of Antigua and Barbuda"
+                        },
+                        {
+                            "id": "43",
+                            "name": "Citizen of Bosnia and Herzegovina"
+                        },
+                        {
+                            "id": "44",
+                            "name": "Citizen of Guinea-Bissau"
+                        },
+                        {
+                            "id": "45",
+                            "name": "Citizen of Kiribati"
+                        },
+                        {
+                            "id": "46",
+                            "name": "Citizen of Seychelles"
+                        },
+                        {
+                            "id": "47",
+                            "name": "Citizen of the Dominican Republic"
+                        },
+                        {
+                            "id": "48",
+                            "name": "Citizen of Vanuatu "
+                        },
+                        {
+                            "id": "49",
+                            "name": "Colombian"
+                        },
+                        {
+                            "id": "50",
+                            "name": "Comoran"
+                        },
+                        {
+                            "id": "51",
+                            "name": "Congolese (Congo)"
+                        },
+                        {
+                            "id": "52",
+                            "name": "Congolese (DRC)"
+                        },
+                        {
+                            "id": "53",
+                            "name": "Cook Islander"
+                        },
+                        {
+                            "id": "54",
+                            "name": "Costa Rican"
+                        },
+                        {
+                            "id": "55",
+                            "name": "Croatian"
+                        },
+                        {
+                            "id": "56",
+                            "name": "Cuban"
+                        },
+                        {
+                            "id": "57",
+                            "name": "Cymraes"
+                        },
+                        {
+                            "id": "58",
+                            "name": "Cymro"
+                        },
+                        {
+                            "id": "59",
+                            "name": "Cypriot"
+                        },
+                        {
+                            "id": "60",
+                            "name": "Czech"
+                        },
+                        {
+                            "id": "61",
+                            "name": "Danish"
+                        },
+                        {
+                            "id": "62",
+                            "name": "Djiboutian"
+                        },
+                        {
+                            "id": "63",
+                            "name": "Dominican"
+                        },
+                        {
+                            "id": "64",
+                            "name": "Dutch"
+                        },
+                        {
+                            "id": "65",
+                            "name": "East Timorese"
+                        },
+                        {
+                            "id": "66",
+                            "name": "Ecuadorean"
+                        },
+                        {
+                            "id": "67",
+                            "name": "Egyptian"
+                        },
+                        {
+                            "id": "68",
+                            "name": "Emirati"
+                        },
+                        {
+                            "id": "69",
+                            "name": "English"
+                        },
+                        {
+                            "id": "70",
+                            "name": "Equatorial Guinean"
+                        },
+                        {
+                            "id": "71",
+                            "name": "Eritrean"
+                        },
+                        {
+                            "id": "72",
+                            "name": "Estonian"
+                        },
+                        {
+                            "id": "73",
+                            "name": "Ethiopian"
+                        },
+                        {
+                            "id": "74",
+                            "name": "Faroese"
+                        },
+                        {
+                            "id": "75",
+                            "name": "Fijian"
+                        },
+                        {
+                            "id": "76",
+                            "name": "Filipino"
+                        },
+                        {
+                            "id": "77",
+                            "name": "Finnish"
+                        },
+                        {
+                            "id": "78",
+                            "name": "French"
+                        },
+                        {
+                            "id": "79",
+                            "name": "Gabonese"
+                        },
+                        {
+                            "id": "80",
+                            "name": "Gambian"
+                        },
+                        {
+                            "id": "81",
+                            "name": "Georgian"
+                        },
+                        {
+                            "id": "82",
+                            "name": "German"
+                        },
+                        {
+                            "id": "83",
+                            "name": "Ghanaian"
+                        },
+                        {
+                            "id": "84",
+                            "name": "Gibraltarian"
+                        },
+                        {
+                            "id": "85",
+                            "name": "Greek"
+                        },
+                        {
+                            "id": "86",
+                            "name": "Greenlandic"
+                        },
+                        {
+                            "id": "87",
+                            "name": "Grenadian"
+                        },
+                        {
+                            "id": "88",
+                            "name": "Guamanian"
+                        },
+                        {
+                            "id": "89",
+                            "name": "Guatemalan"
+                        },
+                        {
+                            "id": "90",
+                            "name": "Guinean"
+                        },
+                        {
+                            "id": "91",
+                            "name": "Guyanese"
+                        },
+                        {
+                            "id": "92",
+                            "name": "Haitian"
+                        },
+                        {
+                            "id": "93",
+                            "name": "Honduran"
+                        },
+                        {
+                            "id": "94",
+                            "name": "Hong Konger"
+                        },
+                        {
+                            "id": "95",
+                            "name": "Hungarian"
+                        },
+                        {
+                            "id": "96",
+                            "name": "Icelandic"
+                        },
+                        {
+                            "id": "97",
+                            "name": "Indian"
+                        },
+                        {
+                            "id": "98",
+                            "name": "Indonesian"
+                        },
+                        {
+                            "id": "99",
+                            "name": "Iranian"
+                        },
+                        {
+                            "id": "100",
+                            "name": "Iraqi"
+                        },
+                        {
+                            "id": "101",
+                            "name": "Irish"
+                        },
+                        {
+                            "id": "102",
+                            "name": "Israeli"
+                        },
+                        {
+                            "id": "103",
+                            "name": "Italian"
+                        },
+                        {
+                            "id": "104",
+                            "name": "Ivorian"
+                        },
+                        {
+                            "id": "105",
+                            "name": "Jamaican"
+                        },
+                        {
+                            "id": "106",
+                            "name": "Japanese"
+                        },
+                        {
+                            "id": "107",
+                            "name": "Jordanian"
+                        },
+                        {
+                            "id": "108",
+                            "name": "Kazakh"
+                        },
+                        {
+                            "id": "109",
+                            "name": "Kenyan"
+                        },
+                        {
+                            "id": "110",
+                            "name": "Kittitian"
+                        },
+                        {
+                            "id": "111",
+                            "name": "Kosovan"
+                        },
+                        {
+                            "id": "112",
+                            "name": "Kuwaiti"
+                        },
+                        {
+                            "id": "113",
+                            "name": "Kyrgyz"
+                        },
+                        {
+                            "id": "114",
+                            "name": "Lao"
+                        },
+                        {
+                            "id": "115",
+                            "name": "Latvian"
+                        },
+                        {
+                            "id": "116",
+                            "name": "Lebanese"
+                        },
+                        {
+                            "id": "117",
+                            "name": "Liberian"
+                        },
+                        {
+                            "id": "118",
+                            "name": "Libyan"
+                        },
+                        {
+                            "id": "119",
+                            "name": "Liechtenstein citizen"
+                        },
+                        {
+                            "id": "120",
+                            "name": "Lithuanian"
+                        },
+                        {
+                            "id": "121",
+                            "name": "Luxembourger"
+                        },
+                        {
+                            "id": "122",
+                            "name": "Macanese"
+                        },
+                        {
+                            "id": "123",
+                            "name": "Macedonian"
+                        },
+                        {
+                            "id": "124",
+                            "name": "Malagasy"
+                        },
+                        {
+                            "id": "125",
+                            "name": "Malawian"
+                        },
+                        {
+                            "id": "126",
+                            "name": "Malaysian"
+                        },
+                        {
+                            "id": "127",
+                            "name": "Maldivian"
+                        },
+                        {
+                            "id": "128",
+                            "name": "Malian"
+                        },
+                        {
+                            "id": "129",
+                            "name": "Maltese"
+                        },
+                        {
+                            "id": "130",
+                            "name": "Marshallese"
+                        },
+                        {
+                            "id": "131",
+                            "name": "Martiniquais"
+                        },
+                        {
+                            "id": "132",
+                            "name": "Mauritanian"
+                        },
+                        {
+                            "id": "133",
+                            "name": "Mauritian"
+                        },
+                        {
+                            "id": "134",
+                            "name": "Mexican"
+                        },
+                        {
+                            "id": "135",
+                            "name": "Micronesian"
+                        },
+                        {
+                            "id": "136",
+                            "name": "Moldovan"
+                        },
+                        {
+                            "id": "137",
+                            "name": "Monegasque"
+                        },
+                        {
+                            "id": "138",
+                            "name": "Mongolian"
+                        },
+                        {
+                            "id": "139",
+                            "name": "Montenegrin"
+                        },
+                        {
+                            "id": "140",
+                            "name": "Montserratian"
+                        },
+                        {
+                            "id": "141",
+                            "name": "Moroccan"
+                        },
+                        {
+                            "id": "142",
+                            "name": "Mosotho"
+                        },
+                        {
+                            "id": "143",
+                            "name": "Mozambican"
+                        },
+                        {
+                            "id": "144",
+                            "name": "Namibian"
+                        },
+                        {
+                            "id": "145",
+                            "name": "Nauruan"
+                        },
+                        {
+                            "id": "146",
+                            "name": "Nepalese"
+                        },
+                        {
+                            "id": "147",
+                            "name": "New Zealander"
+                        },
+                        {
+                            "id": "148",
+                            "name": "Nicaraguan"
+                        },
+                        {
+                            "id": "149",
+                            "name": "Nigerian"
+                        },
+                        {
+                            "id": "150",
+                            "name": "Nigerien"
+                        },
+                        {
+                            "id": "151",
+                            "name": "Niuean"
+                        },
+                        {
+                            "id": "152",
+                            "name": "North Korean"
+                        },
+                        {
+                            "id": "153",
+                            "name": "Northern Irish"
+                        },
+                        {
+                            "id": "154",
+                            "name": "Norwegian"
+                        },
+                        {
+                            "id": "155",
+                            "name": "Omani"
+                        },
+                        {
+                            "id": "156",
+                            "name": "Pakistani"
+                        },
+                        {
+                            "id": "157",
+                            "name": "Palauan"
+                        },
+                        {
+                            "id": "158",
+                            "name": "Palestinian"
+                        },
+                        {
+                            "id": "159",
+                            "name": "Panamanian"
+                        },
+                        {
+                            "id": "160",
+                            "name": "Papua New Guinean"
+                        },
+                        {
+                            "id": "161",
+                            "name": "Paraguayan"
+                        },
+                        {
+                            "id": "162",
+                            "name": "Peruvian"
+                        },
+                        {
+                            "id": "163",
+                            "name": "Pitcairn Islander"
+                        },
+                        {
+                            "id": "164",
+                            "name": "Polish"
+                        },
+                        {
+                            "id": "165",
+                            "name": "Portuguese"
+                        },
+                        {
+                            "id": "166",
+                            "name": "Prydeinig"
+                        },
+                        {
+                            "id": "167",
+                            "name": "Puerto Rican"
+                        },
+                        {
+                            "id": "168",
+                            "name": "Qatari"
+                        },
+                        {
+                            "id": "169",
+                            "name": "Romanian"
+                        },
+                        {
+                            "id": "170",
+                            "name": "Russian"
+                        },
+                        {
+                            "id": "171",
+                            "name": "Rwandan"
+                        },
+                        {
+                            "id": "172",
+                            "name": "Salvadorean"
+                        },
+                        {
+                            "id": "173",
+                            "name": "Sammarinese"
+                        },
+                        {
+                            "id": "174",
+                            "name": "Samoan"
+                        },
+                        {
+                            "id": "175",
+                            "name": "Sao Tomean"
+                        },
+                        {
+                            "id": "176",
+                            "name": "Saudi Arabian"
+                        },
+                        {
+                            "id": "177",
+                            "name": "Scottish"
+                        },
+                        {
+                            "id": "178",
+                            "name": "Senegalese"
+                        },
+                        {
+                            "id": "179",
+                            "name": "Serbian"
+                        },
+                        {
+                            "id": "180",
+                            "name": "Sierra Leonean"
+                        },
+                        {
+                            "id": "181",
+                            "name": "Singaporean"
+                        },
+                        {
+                            "id": "182",
+                            "name": "Slovak"
+                        },
+                        {
+                            "id": "183",
+                            "name": "Slovenian"
+                        },
+                        {
+                            "id": "184",
+                            "name": "Solomon Islander"
+                        },
+                        {
+                            "id": "185",
+                            "name": "Somali"
+                        },
+                        {
+                            "id": "186",
+                            "name": "South African"
+                        },
+                        {
+                            "id": "187",
+                            "name": "South Korean"
+                        },
+                        {
+                            "id": "188",
+                            "name": "South Sudanese"
+                        },
+                        {
+                            "id": "189",
+                            "name": "Spanish"
+                        },
+                        {
+                            "id": "190",
+                            "name": "Sri Lankan"
+                        },
+                        {
+                            "id": "191",
+                            "name": "St Helenian"
+                        },
+                        {
+                            "id": "192",
+                            "name": "St Lucian"
+                        },
+                        {
+                            "id": "193",
+                            "name": "Stateless"
+                        },
+                        {
+                            "id": "194",
+                            "name": "Sudanese"
+                        },
+                        {
+                            "id": "195",
+                            "name": "Surinamese"
+                        },
+                        {
+                            "id": "196",
+                            "name": "Swazi"
+                        },
+                        {
+                            "id": "197",
+                            "name": "Swedish"
+                        },
+                        {
+                            "id": "198",
+                            "name": "Swiss"
+                        },
+                        {
+                            "id": "199",
+                            "name": "Syrian"
+                        },
+                        {
+                            "id": "200",
+                            "name": "Taiwanese"
+                        },
+                        {
+                            "id": "201",
+                            "name": "Tajik"
+                        },
+                        {
+                            "id": "202",
+                            "name": "Tanzanian"
+                        },
+                        {
+                            "id": "203",
+                            "name": "Thai"
+                        },
+                        {
+                            "id": "204",
+                            "name": "Togolese"
+                        },
+                        {
+                            "id": "205",
+                            "name": "Tongan"
+                        },
+                        {
+                            "id": "206",
+                            "name": "Trinidadian"
+                        },
+                        {
+                            "id": "207",
+                            "name": "Tristanian"
+                        },
+                        {
+                            "id": "208",
+                            "name": "Tunisian"
+                        },
+                        {
+                            "id": "209",
+                            "name": "Turkish"
+                        },
+                        {
+                            "id": "210",
+                            "name": "Turkmen"
+                        },
+                        {
+                            "id": "211",
+                            "name": "Turks and Caicos Islander"
+                        },
+                        {
+                            "id": "212",
+                            "name": "Tuvaluan"
+                        },
+                        {
+                            "id": "213",
+                            "name": "Ugandan"
+                        },
+                        {
+                            "id": "214",
+                            "name": "Ukrainian"
+                        },
+                        {
+                            "id": "215",
+                            "name": "Uruguayan"
+                        },
+                        {
+                            "id": "216",
+                            "name": "Uzbek"
+                        },
+                        {
+                            "id": "217",
+                            "name": "Vatican citizen"
+                        },
+                        {
+                            "id": "218",
+                            "name": "Venezuelan"
+                        },
+                        {
+                            "id": "219",
+                            "name": "Vietnamese"
+                        },
+                        {
+                            "id": "220",
+                            "name": "Vincentian"
+                        },
+                        {
+                            "id": "221",
+                            "name": "Wallisian"
+                        },
+                        {
+                            "id": "222",
+                            "name": "Welsh"
+                        },
+                        {
+                            "id": "223",
+                            "name": "Yemeni"
+                        },
+                        {
+                            "id": "224",
+                            "name": "Zambian"
+                        },
+                        {
+                            "id": "225",
+                            "name": "Zimbabwean"
+                        }
+                    ],
+                    "religionApplicability": [
+                        {
+                            "id": "1",
+                            "name": "African Traditional & Diasporic"
+                        },
+                        {
+                            "id": "2",
+                            "name": "Agnostic"
+                        },
+                        {
+                            "id": "3",
+                            "name": "Atheist"
+                        },
+                        {
+                            "id": "4",
+                            "name": "Buddhism"
+                        },
+                        {
+                            "id": "5",
+                            "name": "Chinese traditional religion"
+                        },
+                        {
+                            "id": "6",
+                            "name": "Christianity"
+                        },
+                        {
+                            "id": "7",
+                            "name": "Hinduism"
+                        },
+                        {
+                            "id": "8",
+                            "name": "Islam"
+                        },
+                        {
+                            "id": "9",
+                            "name": "Jainism"
+                        },
+                        {
+                            "id": "10",
+                            "name": "Juche"
+                        },
+                        {
+                            "id": "12",
+                            "name": "Other"
+                        },
+                        {
+                            "id": "11",
+                            "name": "Sikhism"
+                        }
+                    ],
+                    "restriction": null,
+                    "serialNo": 4,
+                    "allowNegativeLeaves": false,
+                    "accrualDay": null,
+                    "quotaResetDay": null,
+                    "entitlementPerPeriod": {
+                        "applicableAfterEmploymentDays": 90,
+                        "perPeriodSaved": true,
+                        "perPeriodForm": [
+                            {
+                                "minimumYear": 1,
+                                "maximumYear": 999,
+                                "entitlement": 160
+                            }
+                        ]
+                    },
+                    "accrualMaxLimit": null,
+                    "allowCarryOver": false,
+                    "allowNegativeCarryOver": false,
+                    "maxCarryOver": 0,
+                    "includeWeeklyHoliday": false,
+                    "includeNonWorkingDay": false,
+                    "allowHourly": false,
+                    "maxLeaveDaysAllowed": null,
+                    "allowCarryOverToBeUsedWithin": null,
+                    "defaultLeaveReasons": null,
+                    "negativeLeaveLimit": null,
+                    "documentMandatory": false,
+                    "thresholdDays": null,
+                    "resumptionThresholdDays": null,
+                    "applicableForResumption": false,
+                    "applicableForAdvanceVacationSalary": null,
+                    "applicableForAirTicketReimbursement": null,
+                    "message": null,
+                    "isDraft": false,
+                    "customField": null,
+                    "createdAt": "2024-06-10T10:51:20.105Z",
+                    "ceilingDays": null,
+                    "leaveReason": [],
+                    "applicability": [
+                        {
+                            "id": "5510badf-8b0b-a767-e1cb-d25018d046c6",
+                            "payCalculation": {
+                                "id": "2",
+                                "name": "Fixed 30 days"
+                            },
+                            "applicabilityType": "fullAndFinal",
+                            "isApplicable": true,
+                            "maxEncashmentDays": null,
+                            "afterEmployementDays": null,
+                            "createdAt": "2024-06-26T11:23:48.523Z",
+                            "component": {
+                                "id": "4aaceada-d34c-27d7-008c-ac8efa5673f9",
+                                "name": "EOS Leave Encashment"
+                            },
+                            "encashComponent": []
+                        },
+                        {
+                            "id": "d6a345b9-44d8-ebea-d0b1-8a44ef14cdf3",
+                            "payCalculation": null,
+                            "applicabilityType": "encashment",
+                            "isApplicable": false,
+                            "maxEncashmentDays": null,
+                            "afterEmployementDays": null,
+                            "createdAt": "2024-06-26T11:23:48.524Z",
+                            "component": null,
+                            "encashComponent": []
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
