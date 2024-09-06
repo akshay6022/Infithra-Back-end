@@ -1,8 +1,8 @@
 {
-    "message": "LeavePlan retrievedd",
+    "message": "LeavePlan retrieved",
     "data": {
         "id": "4f9aafee-67c5-1eb9-f119-4045c1d8da45",
-        "name": "Outsource plans",
+        "name": "Outsource plan",
         "customField": null,
         "isDraft": false,
         "createdAt": "2024-06-04T09:57:49.864Z",
@@ -15,10 +15,10 @@
         "location": [
             {
                 "id": "fae124f8-4e17-310d-8142-f45f986481d4",
-                "name": "DXB"
+                "name": "Dubaii"
             },{
                 "id": "fae124f8-4e17-310d-8142-f45f986481d3",
-                "name": "Omann"
+                "name": "Oman"
             }
         ],
         "department": [
@@ -39,7 +39,7 @@
             "subsidiary": [
                 {
                     "id": "49eecd7a-faf2-30ac-20dd-ad7eabbaf593",
-                    "name": "KPI DXBB"
+                    "name": "KPI DXB"
                 }
             ]
         },
@@ -48,7 +48,7 @@
                 "id": "522ff6b4-4a2e-2a0f-90e7-d1150c46da6c",
                 "leaveItemType": {
                     "id": "1",
-                    "name": "Earnings"
+                    "name": "Earning"
                 },
                 "leavePayType": {
                     "id": "1",

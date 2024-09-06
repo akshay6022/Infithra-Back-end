@@ -1,0 +1,23 @@
+{
+    "location": [
+        {
+            "id": "fae124f8-4e17-310d-8142-f45f986481d4",
+            "name": "Dubai"
+        },
+        {
+            "id": "fae124f8-4e17-310d-8142-f45f986481d3",
+            "name": "Oman"
+        },
+        {
+            "id": "fae124f8-4e17-310d-8142-f45f986481d4",
+            "name": "Muscat"
+        },
+        {
+            "id": "fae124f8-4e17-310d-8142-f45f986481d3",
+            "name": "Damam"
+        }
+    ],
+    "name": "Nationalities",
+    "date": "06-09-2024",
+    "time": "10:31 AM"
+}
