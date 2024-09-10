@@ -36,7 +36,6 @@ const result = jsonDiff(
   "files/nationalitiesA.json",
   "files/nationalitiesB.json"
 );
-// console.log("result----", result);
 const len = result?.length;
 
 console.log("main result----", result);
@@ -95,75 +94,3 @@ function multiSelect(diffData) {
 }
 // const multiSelectOutput = multiSelect(result);
 // console.log("multiselect output----", multiSelectOutput);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// let res;
-// if (len >= 1) {
-//   res = result.map((el) => {
-//     return {
-//       fieldPath: el.path,
-//       fieldName: getFieldName(el.path),
-//       oldValue: el.lhs,
-//       newValue: el.rhs,
-//     };
-//   });
-//   console.log("res---", res);
-// }
-
-// let duplicate = [];
-// let indexes = [];
-// for (let i = 0; i <= res.length - 1; i++) {
-//   for (let j = 0; j <= res.length - 1; j++) {
-//     if (res[i] == res[j]) {
-//       continue;
-//     } else {
-//       if (res[i].fieldName === res[j].fieldName) {
-//         indexes.push(res[i].fieldName);
-//         duplicate.push(res[i]);
-//       }
-//     }
-//   }
-// }
-
-// const newArr = res.filter((el) => {
-//   if (el.fieldName != indexes[0]) {
-//     return el;
-//   }
-// });
-// console.log("indexes--", indexes);
-// console.log("mnew array----", newArr); // removed common field names
-// const data = [...new Set(duplicate)];
-// console.log("data---", data); // common fields extracted
-
-// let oldValue = "";
-// let newValue = "";
-// data.forEach((el) => {
-//   oldValue = oldValue + "," + el.oldValue;
-//   newValue = newValue + "," + el.newValue;
-// });
-
-// const combinedOldAndNeW ={
-//   fieldName : data[0].fieldName,
-//   oldValue: oldValue.slice(1),
-//   newValue: newValue.slice(1)
-// }
-// console.log("old values---", oldValue);
-// console.log("new values----", newValue);
-
-// console.log("combined---",combinedOldAndNeW);
-
-// newArr.push(combinedOldAndNeW);
-// console.log("FINAL FORM----------",newArr)
